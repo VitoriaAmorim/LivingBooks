@@ -1,0 +1,184 @@
+
+body{
+    background-color: #19192a;
+}
+.container-fluid{
+    height: 60px;
+}
+.nav-link{
+    color: white;
+    font-size: 17px;
+}
+h1{
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 36px;
+    text-align: center;
+    padding: 4%;
+    font-family: 'Lora', serif;
+}
+h2{
+    font-weight: 500;
+    font-size: 30px;
+    margin: 5%;
+    font-family: 'Lora', serif;
+}
+h3{
+    font-weight: 500;
+    font-size: 25px;
+    padding: 20px;
+    font-family: 'Lora', serif;
+}
+p{
+    font-weight: 500;
+    font-size: 21px;
+    padding: 15px;
+}
+.fundo{
+    margin-top: 70px;
+    margin-left: 5%;
+    align-items: center;
+    background-color: rgb(243, 243, 253);
+    border-style: outset;
+    border-radius: 5px;
+    border-color: #00c2cb;
+    border-width: 7px;
+    width: 1130px;
+}
+.fundo img{
+    margin-left: 30px;
+    height: 420px;
+    width: 650px;
+    box-shadow: 5px 3px 20px black;
+    border-radius: 4px;
+}
+
+    /*Clima inicio*/
+    .clima{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 40px;
+        background: linear-gradient(0deg, rgb(181, 182, 252) 0%, rgba(101,89,230,1) 100%); 
+        height: 100%;
+        border: 2px;
+        border-style:solid;
+        border-width: 1px;
+        border-color: rgb(9, 4, 35);
+        border-radius: 10px;
+    }
+    .clima img{
+        box-shadow: none;
+        height: 90px;
+        width: 90px;
+        margin-top: 20px;
+        margin-left: -1px;
+    }
+    .clima h3{
+        font-size: 29px;
+        text-align: center;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: #111136;
+        font-weight: 500;
+        margin-top: -70px;
+    }
+
+    .form{
+        align-items: center;
+        justify-content: center;
+    }
+    .form h3{
+        margin-bottom: 1rem;
+        text-align: center;
+
+    }
+    .form-input-container{
+        display: flex;        
+        width: 30%;
+        align-items: center;
+        margin-left: 35%;
+    }
+
+    .form input{
+        padding: 10px;
+        border: none;
+        flex: 1;
+        border-radius: 4px;
+    }    
+
+    .form button{
+        padding: 0.8rem;
+        min-width: 50px;
+        margin-left: 8px;
+        background-color: #8dd0f5;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .temp p{
+        font-size: 23px;
+        margin-top: -40px;
+    }
+        /*Clima fim*/
+
+    /* Footer início */
+    footer
+    {
+        background-color: #0e0e1a;
+        width: 100%;
+    }
+    footer .cont-footer{
+        display: flex;
+        color: rgb(211, 205, 235);
+    
+    }
+    /*Imagem no footer*/
+        footer .cont-footer img{
+        box-shadow: 5px 4px 2px rgb(7, 5, 15);
+    }
+    footer .cont-footer img:active{
+        box-shadow: none;
+    }
+        /*Fim de imagem*/
+    
+    .link{
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+        list-style: none;
+    }
+    .link a:hover{
+        color: rgb(101, 101, 161);
+    }
+    footer .cont-footer h3{
+        color: white;
+        font-size: 26px;
+        margin-bottom: 16px;
+        font-weight: 500;
+    }
+    footer .cont-footer .redes-socias img{
+        margin-right: 10px;
+    }
+    footer .cont-footer ul > p{
+        margin-bottom: 40px;
+    }
+    footer .cont-footer p{
+        color: rgb(158, 224, 250);
+    }
+    footer .cont-footer a{
+        color: rgb(199, 236, 250);
+        text-decoration: none;
+    }
+        
+    #footer_copyright{
+        display: flex;
+        justify-content: center;
+        background-color: rgb(8, 4, 21);
+        color: rgb(199, 199, 199);
+        font-size:0.9rem;
+        padding: 0.5rem;
+        font-weight: 100;
+    }
+        
+        /*Fim Footer */

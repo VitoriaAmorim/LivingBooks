@@ -1,0 +1,27 @@
+{
+  "name": "projeto",
+  "version": "1.0.0",
+  "description": "projeto final favelaware",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VitorJonatha/Projeto.git"
+  },
+  "author": "Vitor e Vitoria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VitorJonatha/Projeto/issues"
+  },
+  "homepage": "https://github.com/VitorJonatha/Projeto#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.1",
+    "mysql2": "^3.2.0",
+    "require": "^2.4.20",
+    "save": "^2.9.0",
+    "sequelize": "^6.29.0"
+  }
+}

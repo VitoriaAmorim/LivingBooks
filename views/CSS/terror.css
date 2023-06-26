@@ -1,0 +1,128 @@
+h1{
+    text-align: center;
+    color: white;
+    font-family: 'Lora', serif;
+    font-size: 50px;
+    padding: 20px;
+}
+.card{
+    align-items: center;
+    padding: 55px;
+    border: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+    height: 750px;
+    transition: 0.3s;
+    border-radius: 15px;
+    background-color: aliceblue;
+}
+.card:hover{
+    margin-top: -10px;
+    background-color:  rgb(202, 88, 88);
+    color: black
+}
+.button-3 {
+    appearance: none;
+    background-color: #50915a;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    width: 275px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+    box-shadow: 3px 3px #527958;
+  }
+.button-3:active{
+    background-color: #4f8b4d;
+    box-shadow: none;
+}
+
+.nav-link{
+    color: white;
+    font-size: 17px;
+}
+.card-img-top{ 
+    height: 400px;
+    width: 300px;
+}
+body{
+    background-color: #19192a;
+}
+.card-group{
+    padding-top: 40px;
+    border: 30px;
+}
+button{
+    height: 40px;
+    color: green;
+}
+.espaço{
+    padding: 20px;
+}
+
+
+        /* Footer início */
+footer
+{
+    background-color: #0e0e1a;
+}
+footer .container{
+    display: flex;
+    color: rgb(211, 205, 235);
+    padding-top: 30px;
+    padding-right: 200px;
+}
+/*Imagem no footer*/
+footer .container img{
+    box-shadow: 5px 4px 2px rgb(7, 5, 15);
+}
+footer .container img:active{
+    box-shadow: none;
+}
+/*Fim de "imagem no footer"*/
+.link{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    list-style: none;
+}
+.link a:hover{
+       color: rgb(101, 101, 161);
+}
+footer .container h3{
+    color: white;
+    font-size: 26px;
+    margin-bottom: 16px;
+    font-weight: 500;
+}
+footer .container .redes-socias img{
+margin-right: 10px;
+}
+footer .container ul > p{
+    margin-bottom: 40px;
+}
+footer .container a{
+    color: rgb(211, 205, 235);
+    text-decoration: none;
+}
+
+#footer_copyright{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(8, 4, 21);
+    color: rgb(199, 199, 199);
+    font-size:0.9rem;
+    padding: 0.5rem;
+    font-weight: 100;
+}
+
+    /* Footer fim */
